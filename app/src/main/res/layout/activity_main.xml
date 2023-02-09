@@ -15,7 +15,7 @@
         android:text="Warmindo"
         android:background="@drawable/bg2"
         android:textColor="#C8C8C8"
-        android:textSize="27sp"
+        android:textSize="23sp"
         app:layout_constraintStart_toStartOf="parent"
         tools:ignore="MissingConstraints" />
 
@@ -26,7 +26,7 @@
         android:text="List Menu Makanan : "
         android:background="@drawable/bg2"
         android:textColor="#C8C8C8"
-        android:textSize="22sp"
+        android:textSize="18sp"
         app:layout_constraintTop_toBottomOf="@id/tvwWarungIndo"
         tools:ignore="MissingConstraints" />
 
@@ -36,7 +36,7 @@
         android:layout_height="wrap_content"
         android:text="Mie Goreng"
         android:textColor="#646464"
-        android:textSize="22sp"
+        android:textSize="18sp"
         app:layout_constraintTop_toBottomOf="@id/tvwListMenuMakanan"
         tools:ignore="MissingConstraints" />
 
@@ -46,7 +46,7 @@
         android:layout_height="wrap_content"
         android:text="Harga : Rp5.000/barang"
         android:textColor="#646464"
-        android:textSize="17sp"
+        android:textSize="13sp"
         app:layout_constraintTop_toBottomOf="@id/tvwMieGoreng"
         tools:ignore="MissingConstraints" />
 
@@ -56,7 +56,7 @@
         android:layout_height="wrap_content"
         android:text="Rekomendasi Menu"
         android:textColor="#646464"
-        android:textSize="17sp"
+        android:textSize="13sp"
         app:layout_constraintTop_toBottomOf="@id/tvwHargaMie"
         tools:ignore="MissingConstraints" />
 
@@ -66,7 +66,7 @@
         android:layout_height="wrap_content"
         android:text="Waktu : 5 Menit"
         android:textColor="#646464"
-        android:textSize="17sp"
+        android:textSize="13sp"
         app:layout_constraintTop_toBottomOf="@id/tvwMieGoreng"
         app:layout_constraintEnd_toEndOf="parent"
         tools:ignore="MissingConstraints" />
@@ -77,7 +77,7 @@
         android:layout_height="wrap_content"
         android:text="Rating : 10/10"
         android:textColor="#646464"
-        android:textSize="17sp"
+        android:textSize="13sp"
         app:layout_constraintTop_toBottomOf="@id/tvwWaktuMie"
         app:layout_constraintEnd_toEndOf="parent"
         tools:ignore="MissingConstraints" />
@@ -97,7 +97,7 @@
         android:layout_height="wrap_content"
         android:text="Nasi Goreng"
         android:textColor="#646464"
-        android:textSize="22sp"
+        android:textSize="18sp"
         app:layout_constraintTop_toBottomOf="@id/edtJumlahBarangMie"
         tools:ignore="MissingConstraints" />
 
@@ -107,7 +107,7 @@
         android:layout_height="wrap_content"
         android:text="Harga : Rp10.000/barang"
         android:textColor="#646464"
-        android:textSize="17sp"
+        android:textSize="13sp"
         app:layout_constraintTop_toBottomOf="@id/tvwNasiGoreng"
         tools:ignore="MissingConstraints" />
 
@@ -117,7 +117,7 @@
         android:layout_height="wrap_content"
         android:text="Waktu : 8 Menit"
         android:textColor="#646464"
-        android:textSize="17sp"
+        android:textSize="13sp"
         app:layout_constraintTop_toBottomOf="@id/tvwNasiGoreng"
         app:layout_constraintEnd_toEndOf="parent"
         tools:ignore="MissingConstraints" />
@@ -128,7 +128,7 @@
         android:layout_height="wrap_content"
         android:text="Rekomendasi Menu"
         android:textColor="#646464"
-        android:textSize="17sp"
+        android:textSize="13sp"
         app:layout_constraintTop_toBottomOf="@id/tvwHargaNasi"
         tools:ignore="MissingConstraints" />
 
@@ -138,7 +138,7 @@
         android:layout_height="wrap_content"
         android:text="Rating : 7/10"
         android:textColor="#646464"
-        android:textSize="17sp"
+        android:textSize="13sp"
         app:layout_constraintTop_toBottomOf="@id/tvwWaktuNasi"
         app:layout_constraintEnd_toEndOf="parent"
         tools:ignore="MissingConstraints" />
@@ -158,7 +158,7 @@
         android:layout_height="wrap_content"
         android:text="Ayam Goreng/Ayam Geprek"
         android:textColor="#646464"
-        android:textSize="22sp"
+        android:textSize="23sp"
         app:layout_constraintTop_toBottomOf="@id/edtJumlahBarangNasi"
         tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="0dp" />
@@ -169,7 +169,7 @@
         android:layout_height="wrap_content"
         android:text="Harga : Rp8.000/barang"
         android:textColor="#646464"
-        android:textSize="17sp"
+        android:textSize="13sp"
         app:layout_constraintTop_toBottomOf="@id/tvwAyamGoreng"
         tools:ignore="MissingConstraints" />
 
@@ -179,7 +179,7 @@
         android:layout_height="wrap_content"
         android:text="Waktu : 10 Menit"
         android:textColor="#646464"
-        android:textSize="17sp"
+        android:textSize="13sp"
         app:layout_constraintTop_toBottomOf="@id/tvwAyamGoreng"
         app:layout_constraintEnd_toEndOf="parent"
         tools:ignore="MissingConstraints" />
@@ -190,7 +190,7 @@
         android:layout_height="wrap_content"
         android:text="Rekomendasi Menu"
         android:textColor="#646464"
-        android:textSize="17sp"
+        android:textSize="13sp"
         app:layout_constraintTop_toBottomOf="@id/tvwHargaAyam"
         tools:ignore="MissingConstraints" />
 
@@ -200,7 +200,7 @@
         android:layout_height="wrap_content"
         android:text="Rating : 8/10"
         android:textColor="#646464"
-        android:textSize="17sp"
+        android:textSize="13sp"
         app:layout_constraintTop_toBottomOf="@id/tvwWaktuAyam"
         app:layout_constraintEnd_toEndOf="parent"
         tools:ignore="MissingConstraints" />
@@ -220,7 +220,7 @@
         android:layout_height="wrap_content"
         android:text="Tahu dan Tempe"
         android:textColor="#646464"
-        android:textSize="22sp"
+        android:textSize="18sp"
         app:layout_constraintTop_toBottomOf="@id/edtJumlahBarangAyam"
         tools:ignore="MissingConstraints" />
 
@@ -230,7 +230,7 @@
         android:layout_height="wrap_content"
         android:text="Harga : Rp4.000/porsi"
         android:textColor="#646464"
-        android:textSize="17sp"
+        android:textSize="13sp"
         app:layout_constraintTop_toBottomOf="@id/tvwTahuTempe"
         tools:ignore="MissingConstraints" />
 
@@ -240,7 +240,7 @@
         android:layout_height="wrap_content"
         android:text="Waktu : 3 Menit"
         android:textColor="#646464"
-        android:textSize="17sp"
+        android:textSize="13sp"
         app:layout_constraintTop_toBottomOf="@id/tvwTahuTempe"
         app:layout_constraintEnd_toEndOf="parent"
         tools:ignore="MissingConstraints" />
@@ -251,7 +251,7 @@
         android:layout_height="wrap_content"
         android:text="Rekomendasi Menu"
         android:textColor="#646464"
-        android:textSize="17sp"
+        android:textSize="13sp"
         app:layout_constraintTop_toBottomOf="@id/tvwHargaTahuTempe"
         tools:ignore="MissingConstraints" />
 
@@ -261,7 +261,7 @@
         android:layout_height="wrap_content"
         android:text="Rating : 9/10"
         android:textColor="#646464"
-        android:textSize="17sp"
+        android:textSize="13sp"
         app:layout_constraintTop_toBottomOf="@id/tvwWaktuTahuTempe"
         app:layout_constraintEnd_toEndOf="parent"
         tools:ignore="MissingConstraints" />
@@ -281,7 +281,7 @@
         android:layout_height="wrap_content"
         android:text="Mendoan dan Bakwan"
         android:textColor="#646464"
-        android:textSize="22sp"
+        android:textSize="18sp"
         app:layout_constraintTop_toBottomOf="@id/edtJumlahBarangTahuTempe"
         tools:ignore="MissingConstraints" />
 
@@ -291,7 +291,7 @@
         android:layout_height="wrap_content"
         android:text="Harga : Rp6.000/porsi"
         android:textColor="#646464"
-        android:textSize="17sp"
+        android:textSize="13sp"
         app:layout_constraintTop_toBottomOf="@id/tvwMendoanBakwan"
         tools:ignore="MissingConstraints" />
 
@@ -301,7 +301,7 @@
         android:layout_height="wrap_content"
         android:text="Waktu : 4 Menit"
         android:textColor="#646464"
-        android:textSize="17sp"
+        android:textSize="13sp"
         app:layout_constraintTop_toBottomOf="@id/tvwMendoanBakwan"
         app:layout_constraintEnd_toEndOf="parent"
         tools:ignore="MissingConstraints" />
@@ -312,7 +312,7 @@
         android:layout_height="wrap_content"
         android:text="Rekomendasi Menu"
         android:textColor="#646464"
-        android:textSize="17sp"
+        android:textSize="13sp"
         app:layout_constraintTop_toBottomOf="@id/tvwHargaMendoanBakwan"
         tools:ignore="MissingConstraints" />
 
@@ -322,7 +322,7 @@
         android:layout_height="wrap_content"
         android:text="Rating : 9/10"
         android:textColor="#646464"
-        android:textSize="17sp"
+        android:textSize="13sp"
         app:layout_constraintTop_toBottomOf="@id/tvwWaktuMendoanBakwan"
         app:layout_constraintEnd_toEndOf="parent"
         tools:ignore="MissingConstraints" />
