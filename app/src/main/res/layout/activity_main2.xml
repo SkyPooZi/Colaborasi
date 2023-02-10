@@ -1,9 +1,328 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg"
     tools:context=".MainActivity2">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <TextView
+        android:id="@+id/tvwWarungIndo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Warmindo"
+        android:background="@drawable/bg2"
+        android:textColor="#C8C8C8"
+        android:textSize="23sp" />
+
+    <TextView
+        android:id="@+id/tvwListMenuMinuman"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="List Menu Minuman : "
+        android:background="@drawable/bg2"
+        android:textColor="#C8C8C8"
+        android:textSize="18sp"
+        android:layout_below="@id/tvwWarungIndo" />
+
+    <TextView
+        android:id="@+id/tvwEsTeh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Es Teh/Panas"
+        android:textColor="#646464"
+        android:textSize="18sp"
+        android:layout_below="@id/tvwListMenuMinuman" />
+
+    <TextView
+        android:id="@+id/tvwHargaEsTeh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Harga : Rp3.000/barang"
+        android:textColor="#646464"
+        android:textSize="13sp"
+        android:layout_below="@id/tvwEsTeh" />
+
+    <TextView
+        android:id="@+id/tvwWaktuEsTeh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Waktu : 2 Menit"
+        android:textColor="#646464"
+        android:textSize="13sp"
+        android:layout_below="@id/tvwEsTeh"
+        android:layout_alignParentEnd="true"/>
+
+    <TextView
+        android:id="@+id/tvwRekomendasiEsTeh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rekomendasi Menu"
+        android:textColor="#646464"
+        android:textSize="13sp"
+        android:layout_below="@id/tvwHargaEsTeh" />
+
+    <TextView
+        android:id="@+id/tvwRateEsTeh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rating : 10/10"
+        android:textColor="#646464"
+        android:textSize="13sp"
+        android:layout_below="@id/tvwHargaEsTeh"
+        android:layout_alignParentEnd="true"/>
+
+    <EditText
+        android:id="@+id/edtJumlahBarangEsTeh"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:hint="Jumlah Barang"
+        android:inputType="number"
+        android:layout_below="@id/tvwRekomendasiEsTeh" />
+
+    <TextView
+        android:id="@+id/tvwKopi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kopi Panas/Dingin"
+        android:textColor="#646464"
+        android:textSize="18sp"
+        android:layout_below="@id/edtJumlahBarangEsTeh" />
+
+    <TextView
+        android:id="@+id/tvwHargaKopi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Harga : Rp5.000/barang"
+        android:textColor="#646464"
+        android:textSize="13sp"
+        android:layout_below="@id/tvwKopi" />
+
+    <TextView
+        android:id="@+id/tvwWaktuKopi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Waktu : 3 Menit"
+        android:textColor="#646464"
+        android:textSize="13sp"
+        android:layout_below="@id/tvwKopi"
+        android:layout_alignParentEnd="true"/>
+
+    <TextView
+        android:id="@+id/tvwRekomendasiKopi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rekomendasi Menu"
+        android:textColor="#646464"
+        android:textSize="13sp"
+        android:layout_below="@id/tvwHargaKopi" />
+
+    <TextView
+        android:id="@+id/tvwRateKopi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rating : 8/10"
+        android:textColor="#646464"
+        android:textSize="13sp"
+        android:layout_below="@id/tvwHargaKopi"
+        android:layout_alignParentEnd="true"/>
+
+    <EditText
+        android:id="@+id/edtJumlahBarangKopi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:hint="Jumlah Barang"
+        android:inputType="number"
+        android:layout_below="@id/tvwRekomendasiKopi" />
+
+    <TextView
+        android:id="@+id/tvwEsJeruk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Es Jeruk/Panas"
+        android:textColor="#646464"
+        android:textSize="18sp"
+        android:layout_below="@id/edtJumlahBarangKopi" />
+
+    <TextView
+        android:id="@+id/tvwHargaEsJeruk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Harga : Rp6.000/barang"
+        android:textColor="#646464"
+        android:textSize="13sp"
+        android:layout_below="@id/tvwEsJeruk" />
+
+    <TextView
+        android:id="@+id/tvwWaktuEsJeruk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Waktu : 3 Menit"
+        android:textColor="#646464"
+        android:textSize="13sp"
+        android:layout_below="@id/tvwEsJeruk"
+        android:layout_alignParentEnd="true"/>
+
+    <TextView
+        android:id="@+id/tvwRekomendasiEsJeruk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rekomendasi Menu"
+        android:textColor="#646464"
+        android:textSize="13sp"
+        android:layout_below="@id/tvwHargaEsJeruk" />
+
+    <TextView
+        android:id="@+id/tvwRateEsJeruk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rating : 8/10"
+        android:textColor="#646464"
+        android:textSize="13sp"
+        android:layout_below="@id/tvwHargaEsJeruk"
+        android:layout_alignParentEnd="true"/>
+
+    <EditText
+        android:id="@+id/edtJumlahBarangEsJeruk"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:hint="Jumlah Barang"
+        android:inputType="number"
+        android:layout_below="@id/tvwRekomendasiEsJeruk" />
+
+    <TextView
+        android:id="@+id/tvwJusJambu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Jus Jambu dan lain-lain"
+        android:textColor="#646464"
+        android:textSize="18sp"
+        android:layout_below="@id/edtJumlahBarangEsJeruk" />
+
+    <TextView
+        android:id="@+id/tvwHargaJusJambu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Harga : Rp8.000/barang"
+        android:textColor="#646464"
+        android:textSize="13sp"
+        android:layout_below="@id/tvwJusJambu" />
+
+    <TextView
+        android:id="@+id/tvwWaktuJusJambu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Waktu : 5 Menit"
+        android:textColor="#646464"
+        android:textSize="13sp"
+        android:layout_below="@id/tvwJusJambu"
+        android:layout_alignParentEnd="true"/>
+
+    <TextView
+        android:id="@+id/tvwRekomendasiJusJambu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rekomendasi Menu"
+        android:textColor="#646464"
+        android:textSize="13sp"
+        android:layout_below="@id/tvwHargaJusJambu" />
+
+    <TextView
+        android:id="@+id/tvwRateJusJambu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rating : 9/10"
+        android:textColor="#646464"
+        android:textSize="13sp"
+        android:layout_below="@id/tvwHargaJusJambu"
+        android:layout_alignParentEnd="true"/>
+
+    <EditText
+        android:id="@+id/edtJumlahBarangJusJambu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:hint="Jumlah Barang"
+        android:inputType="number"
+        android:layout_below="@id/tvwRekomendasiJusJambu" />
+
+    <TextView
+        android:id="@+id/tvwWedangJahe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Wedang Jahe"
+        android:textColor="#646464"
+        android:textSize="18sp"
+        android:layout_below="@id/edtJumlahBarangJusJambu" />
+
+    <TextView
+        android:id="@+id/tvwHargaWedangJahe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Harga : Rp7.000/barang"
+        android:textColor="#646464"
+        android:textSize="13sp"
+        android:layout_below="@id/tvwWedangJahe" />
+
+    <TextView
+        android:id="@+id/tvwWaktuWedangJahe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Waktu : 4 Menit"
+        android:textColor="#646464"
+        android:textSize="13sp"
+        android:layout_below="@id/tvwWedangJahe"
+        android:layout_alignParentEnd="true"/>
+
+    <TextView
+        android:id="@+id/tvwRekomendasiWedangjahe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rekomendasi Menu"
+        android:textColor="#646464"
+        android:textSize="13sp"
+        android:layout_below="@id/tvwHargaWedangJahe" />
+
+    <TextView
+        android:id="@+id/tvwRateWedangJahe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rating : 9/10"
+        android:textColor="#646464"
+        android:textSize="13sp"
+        android:layout_below="@id/tvwHargaWedangJahe"
+        android:layout_alignParentEnd="true"/>
+
+    <EditText
+        android:id="@+id/edtJumlahBarangWedangJahe"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:hint="Jumlah Barang"
+        android:inputType="number"
+        android:layout_below="@id/tvwRekomendasiWedangjahe" />
+
+    <Button
+        android:id="@+id/btnBeli"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Order Sekarang"
+        android:backgroundTint="#33A02B"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true" />
+
+    <Button
+        android:id="@+id/btnListMenuMakanan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="List Makanan"
+        android:backgroundTint="#33A02B"
+        android:layout_alignParentBottom="true" />
+
+</RelativeLayout>
